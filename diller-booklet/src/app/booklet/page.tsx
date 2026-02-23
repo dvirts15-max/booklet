@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { supabase } from "@/lib/supabase"
+import { supabase } from "../../lib/supabase"
 
 type Lang = "he" | "en"
 const tr = (lang: Lang, he: string, en: string) => (lang === "he" ? he : en)
